@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz app - OBJECTIF CODE </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+            <div class="ColorHead"></div>
+            <div class="Header">
+                <img  src="Ressources/logoobjectifquiz.png" id="logo" alt="Image indisponible" >
+                <!-- Ajout d'onglet-->
+    
+            </div>
+    <div class="BackgroundMode orange">
+        <div class="Menu">
+            
+                    <h1>Testez vos connaissances pour le code de votre choix.</h1>
+                    <h1>________________________________________________________</h1>
+                <div class="AllMode">
+                    <button id="btn-icon-car" class="btn-with-icon">
+                        <img id="icon-car" src="Ressources/iconecar.png" alt="Icone" class="btn-icon">
+                        <p>AUTO</p>
+                    </button>
+                    <button id="btn-icon-boat" class="btn-with-icon">
+                        <img id="icon-boat" src="Ressources/iconebateau.png" alt="Icone" class="btn-icon">
+                        <p>BATEAU</p>
+                    </button>
+                    <button id="btn-icon-moto" class="btn-with-icon">
+                        <img id="icon-moto" src="Ressources/iconemoto.png" alt="Icone" class="btn-icon">
+                        <p>MOTO</p>
+                    </button>
+
+                </div>
+                <div class="StartQuiz">
+                    <div>
+                        <h2>Instructions pour le Test de Code de la Route</h2>
+                    <ul>
+                        <li><strong>Durée du test :</strong> Vous disposez de <b>30 secondes</b> pour répondre à chaque question. Le test comporte un total de <b>40 questions</b>.</li>
+                        <li><strong>Choix du mode :</strong> Sélectionnez le type de véhicule : 
+                            <ul>
+                                <li>Auto</li>
+                                <li>Bateau</li>
+                                <li>Moto</li>
+                            </ul>
+                        </li>
+                        <li><strong>Démarrage :</strong> Cliquez sur le bouton <b>Start</b> pour commencer le test.</li>
+                        <li><strong>Conseils :</strong> Lisez attentivement chaque question avant de répondre. Une fois une réponse sélectionnée, la suivante s’affichera automatiquement.</li>
+                    </ul>
+
+                    </div>
+
+                        <div class="Instruction">
+                            <button id="btn-icon-logo" class="btn-icon-start">
+                            <img id="icon-logo" src="Ressources/timerO.png" alt="Icone" class="btn-icon">
+                            <p>Start</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+ 
+
+        <div id="app" class="app hide">
+            <div class="blackline topcorner"></div>
+            <div class="VideoImage">
+                <video muted id="videoQuiz">
+                    <source src="Ressources/vache.mp4" type="video/mp4">
+                </video>
+                <img  src="Ressources/Image1.jpg" id="imageQuiz" alt="Image indisponible" >
+            </div>
+            <div class="blackline">01/40</div>
+                <div class="quiz">
+
+                    <h2 id="question"><div class="circle "><div class="circle2 ">1</div></div>Que signifie un panneau de limitation de vitesse affichant 60 ?</h2>
+
+                    <div id="answer-buttons">
+                        <button class ="btn">A. Il est recommandé de rouler à 60 km/h.</button>
+                        <button class ="btn">B. La vitesse minimale autorisée est de 60 km/h.</button>
+                        <button class ="btn">C. La vitesse maximale autorisée est de 60 km/h.</button>
+                        <button class ="btn">D. Il est obligatoire de rouler exactement à 60 km/h.</button>
+                    </div>
+                    <button id="next-btn">Suivant</button>
+                </div>
+        </div>
+    </div>
+
+
+    </body>
+    <!--<script type="module" src="script.js"></script>-->
+</html>

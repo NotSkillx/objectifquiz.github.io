@@ -1,13 +1,5 @@
 import { questionsCars,questionsMotorBike,questionsBoat } from "./data.js";
 
-
-
-const questionElement = document.getElementById("question");
-const reponseElement = document.getElementById("answer-buttons")
-const nextButton = document.getElementById("NextButton")
-const videoElement = document.getElementById("videoQuiz")
-const imageElement = document.getElementById("imageQuiz")
-const appElement = document.getElementById("app")
 const BackgroundElement = document.getElementById("Background")
 const Menu = document.querySelector(".Menu");
 const carButton = document.getElementById("btn-icon-car")

@@ -1,6 +1,7 @@
 export const questionsCars =[
     {
         question: "Que signifie un panneau de limitation de vitesse affichant 60 ?",
+        video : "",
         image : "Ressources/Image1.jpg",
         reponse:[
             {text: "Il est recommandé de rouler à 60 km/h.", correct: false},
@@ -12,6 +13,7 @@ export const questionsCars =[
     {
         question: "Que devez-vous faire si vous arrivez à un stop et qu'il n'y a aucun autre véhicule visible ?",
         video: "Ressources/vache.mp4",
+        image : "",
         reponse: [
             { text: "Vous pouvez continuer sans vous arrêter.", correct: false },
             { text: "Vous devez vous arrêter complètement, puis vous engager avec prudence.", correct: true },
@@ -25,6 +27,7 @@ export const questionsCars =[
 export const questionsMotorBike =[
     {
         question: "Que signifie un panneau de limitation de vitesse affichant 60 ?",
+        video : "",
         image : "Ressources/Image1.jpg",
         reponse:[
             {text: "Il est recommandé de rouler à 60 km/h.", correct: false},
@@ -36,6 +39,7 @@ export const questionsMotorBike =[
     {
         question: "Que devez-vous faire si vous arrivez à un stop et qu'il n'y a aucun autre véhicule visible ?",
         video: "Ressources/vache.mp4",
+        image : "",
         reponse: [
             { text: "Vous pouvez continuer sans vous arrêter.", correct: false },
             { text: "Vous devez vous arrêter complètement, puis vous engager avec prudence.", correct: true },
@@ -47,6 +51,7 @@ export const questionsMotorBike =[
 export const questionsBoat =[
     {
         question: "Que signifie un panneau de limitation de vitesse affichant 60 ?",
+        video : "",
         image : "Ressources/Image1.jpg",
         reponse:[
             {text: "Il est recommandé de rouler à 60 km/h.", correct: false},
@@ -58,6 +63,7 @@ export const questionsBoat =[
     {
         question: "Que devez-vous faire si vous arrivez à un stop et qu'il n'y a aucun autre véhicule visible ?",
         video: "Ressources/vache.mp4",
+        image : "",
         reponse: [
             { text: "Vous pouvez continuer sans vous arrêter.", correct: false },
             { text: "Vous devez vous arrêter complètement, puis vous engager avec prudence.", correct: true },

@@ -12,8 +12,8 @@ export const questionsCars =[
     },
     {
         question: "Que devez-vous faire si vous arrivez à un stop et qu'il n'y a aucun autre véhicule visible ?",
-        video: "Ressources/vache.mp4",
-        image : "",
+        video : "",
+        image : "Ressources/Image1.jpg",
         reponse: [
             { text: "Vous pouvez continuer sans vous arrêter.", correct: false },
             { text: "Vous devez vous arrêter complètement, puis vous engager avec prudence.", correct: true },

@@ -125,7 +125,7 @@ var CounterTime;
 
 function showQuestion(){
     createQuizApp();
-    CounterTime = 120;
+    CounterTime = 5;
     let counterTime = document.querySelectorAll(".circle2")[currentQuestionIndex];
     counterTime.textContent = CounterTime;
     timer = setInterval(() => {
@@ -137,7 +137,7 @@ function showQuestion(){
             hideapp();
             clearInterval(timer);
             handleNextButton();
-            counterTime.textContent = currentQuestionIndex;
+            counterTime.textContent = "";
         }
     }, 1000);
     //videoQuiz

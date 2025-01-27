@@ -68,6 +68,33 @@ body{
     font-family: MyFont;
     padding-right: 15px;
 }
+@media(max-width:1000px){
+    .app .blackline{
+        background: #262c31;
+        color: white;
+        height: 30px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px; 
+        font-family: MyFont;
+        
+    
+    }
+    .app .blacklineR{
+        background: #262c31;
+        color: white; 
+        height: 30px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 18px; 
+        font-family: MyFont;
+        padding-right: 15px;
+    }
+}
 
 
 .topcorner{
@@ -103,6 +130,21 @@ body{
     text-align: center; 
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
 }
+@media(max-width: 1000px){
+    .app .quiz{
+        background: #ffffff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 30px;
+        width: 400px;
+        display: flex;
+        flex-direction: column; 
+        align-items: start;
+        justify-content: center; 
+        text-align: center; 
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+    }
+}
 #question{
     display: flex; 
     align-items: center; 
@@ -112,7 +154,7 @@ body{
 .ColorHead{
     background: #f46407;
     width: 100%; 
-    height: 20px; 
+    height: 5px; 
 }
 
 .Header{
@@ -135,7 +177,6 @@ body{
 
 
 .BackgroundMode{
-
     position: relative; 
     z-index: 9; 
     padding: 20px;
@@ -146,6 +187,12 @@ body{
         z-index: 9; 
         padding: 20px;
         overflow-x: hidden;
+    }
+}
+
+@media(max-width:600px){
+    .Instruction{
+        margin-top: 20px;
     }
 }
 
@@ -192,8 +239,16 @@ body{
     align-self: center;
     flex-direction: row;
     width: auto;
+    margin-top: 10px;
 }
-
+@media(max-width:600px){
+    .NextButton{
+        display: flex;
+        align-self: center;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+}
 
 
 
@@ -234,16 +289,15 @@ body{
 }
 
 .btn-with-icon {
-    gap: 5px; 
     padding: 10px 65px; 
     background-color: rgba(0, 0, 0, 0); 
     color: #ffffff; 
     border-radius: 5px; 
     cursor: pointer;
-    border: white solid 3px;
     margin-right: 60px;
-
-
+    border: white solid 3px;
+    margin-left: 45px;
+    padding-bottom: 20px;
 
     font-family: myFont;
     font-size: 17px;
@@ -252,14 +306,14 @@ body{
 }
 @media(max-width:600px){
     .btn-with-icon {
-        gap: 5px; 
         padding: 10px 65px; 
         background-color: rgba(0, 0, 0, 0); 
         color: #ffffff; 
         border-radius: 100px; 
         cursor: pointer;
         border: white solid 3px;
-
+        margin-left: 45px;
+        padding: 30px;
     
     
     
@@ -382,8 +436,8 @@ h1{
 .circle {
     width: 50px;  
     height: 50px;     
-    background-color: var(--grey-color);  
-    border-radius: 50%;   
+    border-radius: 50%; 
+    background-color: var(--grey-color);   
     display: flex;         
     align-items: center;   
     justify-content: center; 
@@ -406,6 +460,35 @@ h1{
     transition: 1s ease-in-out;
 
 }
+@media(max-width:1000px){
+    .circle {
+        width: 50px;  
+        height: 50px;     
+        border-radius: 50%;
+        background-color: var(--grey-color);   
+        display: flex;         
+        align-items: center;   
+        justify-content: center; 
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+        transition: 0.5s ease;
+        
+        
+    }
+    .circle2 {
+        width: 40px;           
+        height: 40px;       
+        background-color: rgb(255, 255, 255);  
+        border-radius: 50%;
+        display: flex;         
+        align-items: center;   
+        justify-content: center; 
+        font-size: 25px;
+        font-family: MyFont;
+        color: var(--orange-color);
+        transition: 1s ease-in-out;
+    
+    }
+}
 
 
 #next-btn{
@@ -416,6 +499,9 @@ h1{
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+            display: flex;         
+        align-items: center;   
+        justify-content: center; 
 }
 
 .correct{
@@ -445,6 +531,19 @@ h1{
     display: block;
     width: 1280px;
     height: 500px;
+}
+@media(max-width:1000px){
+    .imageQuiz{
+        display: block;
+        width: 400px;
+        height: 200px;
+    }
+    
+    .videoQuiz{
+        display: block;
+        width: 400px;
+        height: 200px;
+    }
 }
 
 

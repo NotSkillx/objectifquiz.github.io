@@ -400,21 +400,6 @@ h1{
 }
 
 
-
-
-
-.logo{
-}
-
-.VideoImage{
-
-
-}
-
-
-
-
-
 .quiz h2{
     font-size: 22px;
     font-weight: 600;
@@ -488,14 +473,14 @@ h1{
 
 }
 
-#imageQuiz{
+.imageQuiz{
     display: block;
     width: 1280px;
     height: 500px;
     
 }
 
-#videoQuiz{
+.videoQuiz{
     display: block;
     width: 1280px;
     height: 500px;

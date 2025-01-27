@@ -141,12 +141,21 @@ function showQuestion(){
         counterTime.textContent = CounterTime;
 
         if(CounterTime === 0){
-            VerifAnswer()
-            hideapp()
+            VerifAnswer();
+            hideapp();
             clearInterval(timer);
             handleNextButton();
+            counterTime.textContent = currentQuestionIndex;
         }
     }, 1000);
+    //videoQuiz
+    let video = document.getElementById("videoQuiz "+ currentQuestionIndex );
+    if(video != null){
+        video.play().catch((error) => {
+            console.error("Impossible de démarrer la vidéo :", error);
+        }); 
+    }
+
 }
 // shuffleAnswer
 function shuffleArray(array) {
@@ -155,16 +164,6 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]]; 
     }
     return array;
-}
-
-function resetState(){
-    while(reponseElement.firstChild){
-        reponseElement.removeChild(reponseElement.firstChild)
-    }
-}
-function resetElement(){
-    imageElement.style.display = "none";
-    videoElement.style.display = "none";
 }
 
 function selectAnswer(e){
@@ -234,16 +233,6 @@ function CurrentQuestion(){
 
 }
 
-/* next button click
-nextButton.addEventListener("click",()=>{
-    if(currentQuestionIndex < questions.length){
-        handleNextButton();
-    }else{
-        startQuiz();
-        //console.log("plus de question")
-    }
-})*/
-
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
@@ -265,7 +254,8 @@ function createQuizApp() {
     videoImage.className = 'VideoImage';
     const video = document.createElement('video');
     video.muted = true;
-    video.id = 'videoQuiz';
+    video.id = 'videoQuiz '+currentQuestionIndex;
+    video.className = 'videoQuiz';
 
     const source = document.createElement('source');
     source.src = currentQuestion.video;
@@ -276,6 +266,7 @@ function createQuizApp() {
     
     const image = document.createElement('img');
     image.id = 'imageQuiz';
+    image.className = 'imageQuiz';
     image.alt = 'Image indisponible';
     image.src = currentQuestion.image;
     if(currentQuestion.video){

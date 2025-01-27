@@ -11,9 +11,9 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -21,6 +21,11 @@
 body{
     background: #ffffff;
     overflow: auto;
+}
+@media(max-width:600px){
+    body{
+        background: #ffffff;
+    }
 }
 
 .app{
@@ -122,7 +127,6 @@ body{
     .Header{
         align-items: center; 
         justify-content: space-between; 
-        padding: 15px 80px; 
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
         position: relative; 
         z-index: 10; 
@@ -131,7 +135,7 @@ body{
 
 
 .BackgroundMode{
-    height: 100vh;
+
     position: relative; 
     z-index: 9; 
     padding: 20px;
@@ -139,10 +143,9 @@ body{
 @media(max-width:600px){
     .BackgroundMode{
         height: 100vh;
-        position: relative; 
         z-index: 9; 
         padding: 20px;
-        width: auto;
+        overflow-x: hidden;
     }
 }
 

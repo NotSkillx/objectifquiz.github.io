@@ -125,7 +125,7 @@ var CounterTime;
 
 function showQuestion(){
     createQuizApp();
-    CounterTime = 5;
+    CounterTime = 120;
     let counterTime = document.querySelectorAll(".circle2")[currentQuestionIndex];
     counterTime.textContent = CounterTime;
     timer = setInterval(() => {

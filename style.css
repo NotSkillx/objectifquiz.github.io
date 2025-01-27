@@ -111,15 +111,22 @@ body{
 }
 
 .Header{
-
     align-items: center; 
     justify-content: space-between; 
-    padding: 10px 15px; 
+    padding: 15px 50px; 
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
     position: relative; 
     z-index: 10; 
-
-
+}
+@media(max-width:600px){
+    .Header{
+        align-items: center; 
+        justify-content: space-between; 
+        padding: 15px 80px; 
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+        position: relative; 
+        z-index: 10; 
+    }
 }
 
 
@@ -128,6 +135,15 @@ body{
     position: relative; 
     z-index: 9; 
     padding: 20px;
+}
+@media(max-width:600px){
+    .BackgroundMode{
+        height: 100vh;
+        position: relative; 
+        z-index: 9; 
+        padding: 20px;
+        width: auto;
+    }
 }
 
 .orange{
@@ -197,7 +213,6 @@ body{
 
 
 
-
     font-family: myFont;
     font-size: 17px;
     font-weight: bold;
@@ -232,6 +247,25 @@ body{
     font-weight: bold;
     transition: background-color 0.5s ease;
 }
+@media(max-width:600px){
+    .btn-with-icon {
+        gap: 5px; 
+        padding: 10px 65px; 
+        background-color: rgba(0, 0, 0, 0); 
+        color: #ffffff; 
+        border-radius: 100px; 
+        cursor: pointer;
+        border: white solid 3px;
+
+    
+    
+    
+        font-family: myFont;
+        font-size: 12px;
+        font-weight: bold;
+        transition: background-color 0.5s ease;
+    }
+}
 
 
 .btn-icon {
@@ -239,10 +273,12 @@ body{
     height: 50px;
 }
 
+
 .select {
     background: white;
     color: #f46407;
 }
+
 
 
 .AllMode{
@@ -252,6 +288,16 @@ body{
     align-items: center;
     justify-content: center; 
     text-align: center; 
+}
+@media(max-width:600px){
+    .AllMode{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translate(25px,0px);
+    }
 }
 
 h1{
@@ -263,7 +309,7 @@ h1{
     font-family: myFont;
     font-size: 20px;
 }
-@media(max-width:400px){
+@media(max-width:600px){
     h1{
         color: #ffffff;
         display: flex;
@@ -296,6 +342,24 @@ h1{
     margin-top: -50px;
     font-family: myFont;
     font-size: 10px;
+}
+@media(max-width: 600px){
+    .StartQuiz{
+        background: white;
+        border-radius: 10px;
+        padding: 100px;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+    
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-family: myFont;
+        font-size: 10px;
+    }
 }
 
 .quiz h2{

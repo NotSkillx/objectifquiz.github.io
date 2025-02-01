@@ -99,7 +99,7 @@ function startQuiz(){
 
     shuffleArray(questions);
     questions.forEach(q =>{ 
-        q.reponse = shuffleArray(q.reponse);
+        q.reponse = shuffleReponse(q.reponse);
     })
     Menu.classList.add("hide")
     showQuestion();
@@ -125,7 +125,8 @@ var CounterTime;
 
 function showQuestion(){
     createQuizApp();
-    CounterTime = 5;
+    CounterTime = 1;
+    let counterTime1 = document.querySelectorAll(".circle")[currentQuestionIndex];
     let counterTime = document.querySelectorAll(".circle2")[currentQuestionIndex];
     counterTime.textContent = CounterTime;
     timer = setInterval(() => {
@@ -138,6 +139,8 @@ function showQuestion(){
             clearInterval(timer);
             handleNextButton();
             counterTime.textContent = "";
+            counterTime.style.display = "none";
+            counterTime1.style.display = "none";
         }
     }, 1000);
     //videoQuiz
@@ -150,8 +153,16 @@ function showQuestion(){
 
 }
 // shuffleAnswer
-function shuffleArray(array) {
+function shuffleReponse(array) {
     for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; 
+    }
+    return array;
+}
+
+function shuffleArray(array) {
+    for (let i = 40 - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]]; 
     }
@@ -227,7 +238,7 @@ function CurrentQuestion(){
 
 function handleNextButton(){
     currentQuestionIndex++;
-    if(currentQuestionIndex < questions.length){
+    if(currentQuestionIndex < 40){
         showQuestion();
     }else{
         displayTestResult(Score)
@@ -308,7 +319,7 @@ function createQuizApp() {
     circle.appendChild(circle2);
 
     question.appendChild(circle);
-    question.appendChild(document.createTextNode('Que signifie un panneau de limitation de vitesse affichant 60 ?'));
+    question.appendChild(document.createTextNode(currentQuestion.question));
     quiz.appendChild(question);
 
     // Ajouter les boutons de réponses
@@ -357,7 +368,7 @@ function createQuizApp() {
     Button.id = 'NextButton'
 
     const nextButton = document.createElement('button');
-    nextButton.className = 'btn-with-icon';
+    nextButton.className = 'btn-with-icon-next';
 
     const imageButton = document.createElement('img');
     imageButton.className = 'btn-icon';
@@ -365,7 +376,7 @@ function createQuizApp() {
     imageButton.alt = 'Icone';
 
     const nextButton2 = document.createElement('button');
-    nextButton2.className = 'btn-with-icon';
+    nextButton2.className = 'btn-with-icon-next';
 
     const imageButton2 = document.createElement('img');
     imageButton2.className = 'btn-icon';
@@ -447,15 +458,12 @@ function displayTestResult(score) {
     retryButton.className = 'retry-btn';
     retryButton.textContent = 'Retour au Menu';
     retryButton.addEventListener('click', () => {
-        // Action sur clic du bouton (par exemple, recharger la page ou redémarrer le test)
-        //location.reload();
         BackMenu();
     });
     const resultButton = document.createElement('button');
     resultButton.className = 'result-btn';
     resultButton.textContent = 'Afficher les resultat';
     resultButton.addEventListener('click', () => {
-        // Action sur clic du bouton (par exemple, recharger la page ou redémarrer le test)
         CurrentQuestion();
     });
     resultContainer.appendChild(retryButton);

@@ -73,7 +73,7 @@ body{
         background: #262c31;
         color: white;
         height: 30px;
-        width: 400px;
+        width: 380px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -86,7 +86,7 @@ body{
         background: #262c31;
         color: white; 
         height: 30px;
-        width: 400px;
+        width: 380px;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -136,7 +136,7 @@ body{
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         padding: 30px;
-        width: 400px;
+        width: 380px;
         display: flex;
         flex-direction: column; 
         align-items: start;
@@ -168,6 +168,7 @@ body{
 @media(max-width:600px){
     .Header{
         align-items: center; 
+        padding: 15px 80px;
         justify-content: space-between; 
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
         position: relative; 
@@ -190,11 +191,6 @@ body{
     }
 }
 
-@media(max-width:600px){
-    .Instruction{
-        margin-top: 20px;
-    }
-}
 
 .orange{
     background: linear-gradient(to bottom, #f46407 30%, #ffffff 70%);
@@ -258,10 +254,10 @@ body{
     padding: 25px 10px; 
     background-color: rgba(0, 0, 0, 0); 
     color: #f46407; 
-    border-radius: 5px;
+    border-radius: 100%;
     cursor: pointer; 
-    border: #000000 solid 1px;
-    height: 100px;
+    border: #8a8a8a solid 1px;
+    height: 200px;
     width:200px;
     display: flex;
     flex-direction: row; 
@@ -278,13 +274,14 @@ body{
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
 }
 .btn-icon-start:hover {
-    background: #000000;
-    border: #000000 solid 0px;
+    background: #f5f5f5;
+    border: #000000 solid 1px;
     
 }
 .btn-icon-start:disabled {
-    background: #ffb6b6;
+    background: #f35757;
     border: #000000 solid 1px;
+    color: #f46407; 
     
 }
 
@@ -296,7 +293,7 @@ body{
     cursor: pointer;
     margin-right: 60px;
     border: white solid 3px;
-    margin-left: 45px;
+    margin-left: 60px;
     padding-bottom: 20px;
 
     font-family: myFont;
@@ -306,15 +303,12 @@ body{
 }
 @media(max-width:600px){
     .btn-with-icon {
-        padding: 10px 65px; 
         background-color: rgba(0, 0, 0, 0); 
         color: #ffffff; 
         border-radius: 100px; 
         cursor: pointer;
         border: white solid 3px;
-        margin-left: 45px;
         padding: 30px;
-    
     
     
         font-family: myFont;
@@ -322,6 +316,23 @@ body{
         font-weight: bold;
         transition: background-color 0.5s ease;
     }
+}
+
+.btn-with-icon-next{
+    padding: 10px 65px; 
+    background-color: rgba(0, 0, 0, 0); 
+    color: #ffffff; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-right: 60px;
+    border: white solid 0px;
+    margin-left: 60px;
+    padding-bottom: 20px;
+
+    font-family: myFont;
+    font-size: 17px;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
 }
 
 
@@ -348,12 +359,22 @@ body{
 }
 @media(max-width:600px){
     .AllMode{
-        gap: 20px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        transform: translate(25px,0px);
+    }
+    #btn-icon-car{
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    #btn-icon-boat{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #btn-icon-moto{
+        margin-left: 20px;
+        margin-right: 0px;
     }
 }
 
@@ -385,7 +406,7 @@ h1{
 
 .StartQuiz{
     background: white;
-    border-radius: 10px;
+    border-radius: 100%;
     padding: 100px;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
 
@@ -393,7 +414,7 @@ h1{
     justify-content: center;
     align-items: center; 
     flex-direction: row;
-    width: 60%; 
+    width: 30%; 
     margin-left: auto;
     margin-right: auto;
     margin-top: -50px;
@@ -403,10 +424,10 @@ h1{
 @media(max-width: 600px){
     .StartQuiz{
         background: white;
-        border-radius: 10px;
+        border-radius: 100%;
         padding: 100px;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
-    
+        width: 300px;
         display: flex;
         justify-content: center;
         align-items: center; 
@@ -436,7 +457,7 @@ h1{
 .circle {
     width: 50px;  
     height: 50px;     
-    border-radius: 50%; 
+    border-radius: 100%; 
     background-color: var(--grey-color);   
     display: flex;         
     align-items: center;   
@@ -450,7 +471,7 @@ h1{
     width: 40px;           
     height: 40px;       
     background-color: rgb(255, 255, 255);  
-    border-radius: 50%;    
+    border-radius: 100%;    
     display: flex;         
     align-items: center;   
     justify-content: center; 
@@ -464,7 +485,7 @@ h1{
     .circle {
         width: 50px;  
         height: 50px;     
-        border-radius: 50%;
+        border-radius: 100%;
         background-color: var(--grey-color);   
         display: flex;         
         align-items: center;   
@@ -478,7 +499,7 @@ h1{
         width: 40px;           
         height: 40px;       
         background-color: rgb(255, 255, 255);  
-        border-radius: 50%;
+        border-radius: 100%;
         display: flex;         
         align-items: center;   
         justify-content: center; 
@@ -535,13 +556,13 @@ h1{
 @media(max-width:1000px){
     .imageQuiz{
         display: block;
-        width: 400px;
+        width: 380px;
         height: 200px;
     }
     
     .videoQuiz{
         display: block;
-        width: 400px;
+        width: 380px;
         height: 200px;
     }
 }

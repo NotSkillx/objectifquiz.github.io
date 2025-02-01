@@ -217,7 +217,7 @@ function removeIndex(){
     }
 }
 function addIndex(){
-    if(currentQuestionIndex < 1){
+    if(currentQuestionIndex < 39){
         currentQuestionIndex++;
     }
 }

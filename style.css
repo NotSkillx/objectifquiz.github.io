@@ -451,6 +451,7 @@ h1{
 #answer-buttons {
     display: flex;
     flex-wrap: wrap; 
+    width: 100%;
     gap: 10px; 
 }
 

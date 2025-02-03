@@ -125,7 +125,7 @@ var CounterTime;
 
 function showQuestion(){
     createQuizApp();
-    CounterTime = 1;
+    CounterTime = 30;
     let counterTime1 = document.querySelectorAll(".circle")[currentQuestionIndex];
     let counterTime = document.querySelectorAll(".circle2")[currentQuestionIndex];
     counterTime.textContent = CounterTime;

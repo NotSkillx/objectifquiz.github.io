@@ -97,10 +97,10 @@ function startQuiz(){
         questions = questionsMotorBike;
     }
 
-    shuffleArray(questions);
-    questions.forEach(q =>{ 
-        q.reponse = shuffleReponse(q.reponse);
-    })
+    //shuffleArray(questions);
+   // questions.forEach(q =>{ 
+   //     q.reponse = shuffleReponse(q.reponse);
+   // })
     Menu.classList.add("hide")
     showQuestion();
 

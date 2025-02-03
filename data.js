@@ -3,7 +3,7 @@ export const questionsCars =[
     {
         question: "Quelle est la vitesse maximale autorisée sur une route à double sens sans séparation centrale hors agglomération ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto1.jpg",
         reponse:[
             {text: "80 km/h.", correct: false},
             {text: "90 km/h.", correct: true},
@@ -15,7 +15,7 @@ export const questionsCars =[
     {
         question: "Que signifie un panneau triangulaire avec un fond blanc et un liseré rouge contenant un point d’exclamation ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto2.jpg",
         reponse: [
             { text: "Indique un danger non spécifié.", correct: true },
             { text: "Indique une interdiction.", correct: false },
@@ -27,7 +27,7 @@ export const questionsCars =[
     {
         question: "Lorsque vous voyez un panneau « STOP », que devez-vous faire ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto3.jpeg",
         reponse: [
             { text: "Marquer un arrêt uniquement s’il y a un véhicule.", correct: false },
             { text: "Ralentir et céder la priorité.", correct: false },
@@ -39,7 +39,7 @@ export const questionsCars =[
     {
         question: "Dans quelles conditions pouvez-vous utiliser les feux de brouillard arrière ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto4.jpg",
         reponse: [
             { text: "Par temps de pluie.", correct: false },
             { text: "En cas de forte chute de neige.", correct: true },
@@ -51,7 +51,7 @@ export const questionsCars =[
     {
         question: "À quoi sert une ligne continue sur la chaussée ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto5.jpg",
         reponse: [
             { text: "Elle interdit de dépasser.", correct: true },
             { text: "Elle indique une priorité.", correct: false },
@@ -63,7 +63,7 @@ export const questionsCars =[
     {
         question: "Comment réagir si un piéton traverse sur un passage piéton sans feu de signalisation ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto6.jpg",
         reponse: [
             { text: "Continuer sans ralentir.", correct: false },
             { text: "Klaxonner pour le prévenir.", correct: false },
@@ -75,7 +75,7 @@ export const questionsCars =[
     {
         question: "Quelle est la signification d’un feu jaune fixe ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto7.jpeg",
         reponse: [
             { text: "Vous devez vous arrêter sauf si vous ne pouvez pas le faire en sécurité.", correct: true },
             { text: "Vous devez accélérer pour passer.", correct: false },
@@ -87,7 +87,7 @@ export const questionsCars =[
     {
         question: "Quelle est la distance minimale à respecter pour stationner devant un passage piéton ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto8.jpg",
         reponse: [
             { text: "1 mètre.", correct: false },
             { text: "3 mètres.", correct: true },
@@ -99,7 +99,7 @@ export const questionsCars =[
     {
         question: "À quoi sert la voie de droite sur une autoroute à trois voies ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto9.jpeg",
         reponse: [
             { text: "Aux dépassements.", correct: false },
             { text: "Aux véhicules lents et à la circulation normale.", correct: true },
@@ -111,7 +111,7 @@ export const questionsCars =[
     {
         question: "Que devez-vous faire avant de changer de direction ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto10.jpeg",
         reponse: [
             { text: "Freiner brutalement.", correct: false },
             { text: "Ne rien faire.", correct: false },
@@ -123,7 +123,7 @@ export const questionsCars =[
     {
         question: "Quelle est la principale cause d'accidents mortels sur la route ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto11.jpg",
         reponse:[
             {text: "Les défaillances mécaniques.", correct: false},
             {text: "L’alcool et la drogue.", correct: true},
@@ -135,7 +135,7 @@ export const questionsCars =[
     {
         question: "Que signifie un panneau rond à fond bleu avec une flèche blanche pointant vers la droite ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto12.jpg",
         reponse: [
             { text: "Obligation de tourner à droite.", correct: true },
             { text: "Interdiction de tourner à droite.", correct: false },
@@ -147,7 +147,7 @@ export const questionsCars =[
     {
         question: "Quelle est la distance de sécurité minimale à respecter avec le véhicule qui vous précède sur route sèche à 90 km/h ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto13.jpg",
         reponse: [
             { text: "10 mètres.", correct: false },
             { text: "25 mètres.", correct: false },
@@ -159,7 +159,7 @@ export const questionsCars =[
     {
         question: "Quel est le taux maximal d'alcool autorisé pour un conducteur en période probatoire ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto14.jpg",
         reponse: [
             { text: "0,2 g/L de sang.", correct: true },
             { text: "0,5 g/L de sang.", correct: false },
@@ -171,7 +171,7 @@ export const questionsCars =[
     {
         question: "Comment réagir si un conducteur arrive en sens inverse avec ses feux de route allumés ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto15.jpg",
         reponse: [
             { text: " Lui faire des appels de phares.", correct: false },
             { text: "Fixer ses feux pour mieux voir.", correct: false },
@@ -183,7 +183,7 @@ export const questionsCars =[
     {
         question: "Lorsque vous apercevez un cycliste sur la chaussée, que devez-vous faire pour le dépasser en ville ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto16.jpg",
         reponse: [
             { text: "Laisser une distance d’au moins 1 mètre.", correct: true },
             { text: "Klaxonner pour qu’il se pousse.", correct: false },
@@ -195,7 +195,7 @@ export const questionsCars =[
     {
         question: "Quelle est la première chose à faire si vous êtes témoin d’un accident ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto17.jpg",
         reponse: [
             { text: "Prendre des photos.", correct: false },
             { text: "Porter secours si possible et alerter les secours.", correct: true },
@@ -207,7 +207,7 @@ export const questionsCars =[
     {
         question: "Sur une autoroute, à quelle distance avant la sortie devez-vous signaler votre intention de sortir ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto18.jpg",
         reponse: [
             { text: "50 mètres.", correct: false },
             { text: "100 mètres.", correct: false },
@@ -219,7 +219,7 @@ export const questionsCars =[
     {
         question: "Quand devez-vous allumer vos feux de croisement en agglomération ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto19.jpg",
         reponse: [
             { text: "Seulement en cas de forte pluie.", correct: false },
             { text: "Uniquement en pleine nuit.", correct: false },
@@ -231,7 +231,7 @@ export const questionsCars =[
     {
         question: "Que faire en cas d’aquaplaning ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto20.jpg",
         reponse: [
             { text: "Freiner brutalement.", correct: false },
             { text: "Tourner le volant rapidement pour reprendre le contrôle.", correct: false },
@@ -243,7 +243,7 @@ export const questionsCars =[
     {
         question: "Quelle est la vitesse maximale autorisée sur une autoroute en France par temps sec ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto21.jpg",
         reponse: [
             { text: "110 km/h", correct: false },
             { text: "120 km/h", correct: false },
@@ -255,7 +255,7 @@ export const questionsCars =[
     {
         question: "Quel document est obligatoire pour conduire un véhicule en France ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto22.jpg",
         reponse: [
             { text: "Le carnet de santé", correct: false },
             { text: "Le permis de conduire", correct: true },
@@ -267,7 +267,7 @@ export const questionsCars =[
     {
         question: "Que devez-vous faire en arrivant à un rond-point sans panneau de priorité ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto23.jpg",
         reponse: [
             { text: "Passer en premier", correct: false },
             { text: "Céder le passage aux véhicules venant de gauche", correct: true },
@@ -279,7 +279,7 @@ export const questionsCars =[
     {
         question: "Quelle est la distance minimale à respecter entre deux véhicules en circulation normale sur route sèche ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto24.jpg",
         reponse: [
             { text: "10 mètres", correct: false },
             { text: "20 mètres", correct: false },
@@ -291,7 +291,7 @@ export const questionsCars =[
     {
         question: "En cas de neige ou de verglas, quelle règle s'applique à la vitesse sur autoroute ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto25.jpg",
         reponse: [
             { text: "Elle reste la même", correct: false },
             { text: "Elle est augmentée", correct: false },
@@ -303,7 +303,7 @@ export const questionsCars =[
     {
         question: "Que signifie un panneau rond avec un fond bleu et une flèche blanche vers la gauche ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto26.jpg",
         reponse: [
             { text: "Interdiction de tourner à gauche", correct: false },
             { text: "Obligation de tourner à droite", correct: false },
@@ -315,7 +315,7 @@ export const questionsCars =[
     {
         question: "Dans quelle situation devez-vous allumer vos feux de croisement en plein jour ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto27.jpg",
         reponse: [
             { text: "Quand il fait plus de 30°C", correct: false },
             { text: "Sur une route éclairée", correct: false },
@@ -327,7 +327,7 @@ export const questionsCars =[
     {
         question: "Que faire si un feu passe à l’orange alors que vous êtes proche ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto28.jpg",
         reponse: [
             { text: "Accélérer pour passer avant le rouge", correct: false },
             { text: "S’arrêter seulement s’il y a des voitures derrière", correct: false },
@@ -339,7 +339,7 @@ export const questionsCars =[
     {
         question: "Quelle est la règle concernant l'utilisation du téléphone au volant ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto29.jpg",
         reponse: [
             { text: "Autorisé uniquement si le véhicule est à l’arrêt", correct: false },
             { text: "Autorisé avec des écouteurs", correct: false },
@@ -351,7 +351,7 @@ export const questionsCars =[
     {
         question: "Comment devez-vous signaler votre intention de doubler sur autoroute ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto30.jpeg",
         reponse: [
             { text: "En klaxonnant", correct: false },
             { text: "En allumant vos feux de détresse", correct: false },
@@ -363,7 +363,7 @@ export const questionsCars =[
     {
         question: "Quelle est la distance minimale à respecter avec le véhicule qui vous précède sur autoroute par temps sec ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto31.jpg",
         reponse: [
             { text: "20 mètres", correct: false },
             { text: "50 mètres", correct: false },
@@ -375,7 +375,7 @@ export const questionsCars =[
     {
         question: "Que devez-vous faire si vous voyez un piéton engagé sur un passage piéton sans feu tricolore ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto32.jpg",
         reponse: [
             { text: "Klaxonner pour l'avertir", correct: false },
             { text: "Ralentir légèrement et continuer", correct: false },
@@ -387,7 +387,7 @@ export const questionsCars =[
     {
         question: "Que signifie un panneau triangulaire avec un fond blanc et un contour rouge ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto33.jpg",
         reponse: [
             { text: "Une interdiction", correct: false },
             { text: "Une obligation", correct: false },
@@ -399,7 +399,7 @@ export const questionsCars =[
     {
         question: "Quand devez-vous allumer vos feux de croisement ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto34.jpg",
         reponse: [
             { text: "Uniquement de nuit", correct: false },
             { text: "Seulement en agglomération", correct: false },
@@ -411,7 +411,7 @@ export const questionsCars =[
     {
         question: "Quelle est la sanction pour non-port de la ceinture de sécurité par le conducteur ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto35.jpg",
         reponse: [
             { text: "Un simple avertissement", correct: false },
             { text: "Une suspension de permis", correct: false },
@@ -423,7 +423,7 @@ export const questionsCars =[
     {
         question: "Quel est le risque principal d’un dépassement mal évalué ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto36.jpeg",
         reponse: [
             { text: "Un simple ralentissement", correct: false },
             { text: "Une perte de contrôle du véhicule", correct: false },
@@ -435,7 +435,7 @@ export const questionsCars =[
     {
         question: "Sur une autoroute, quel est le rôle de la bande d'arrêt d'urgence ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto37.jpg",
         reponse: [
             { text: "Permettre les dépassements", correct: false },
             { text: "Accélérer avant d'entrer sur l'autoroute", correct: false },
@@ -447,7 +447,7 @@ export const questionsCars =[
     {
         question: "Que devez-vous faire en cas de pluie forte sur l’autoroute ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto38.jpg",
         reponse: [
             { text: "Augmenter votre vitesse pour éviter l'aquaplaning", correct: false },
             { text: "Rouler sur la bande d'arrêt d'urgence", correct: false },
@@ -459,7 +459,7 @@ export const questionsCars =[
     {
         question: "En cas de panne sur une autoroute, quelle est la première chose à faire ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto39.jpg",
         reponse: [
             { text: "Essayer de réparer son véhicule soi-même", correct: false },
             { text: "Attendre à côté du véhicule", correct: false },
@@ -471,7 +471,7 @@ export const questionsCars =[
     {
         question: "Quel comportement adopter lorsque vous croisez un véhicule la nuit sur une route non éclairée ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageAuto40.jpg",
         reponse: [
             { text: "Garder vos feux de route allumés", correct: false },
             { text: "Regarder directement les phares du véhicule en face", correct: false },
@@ -486,7 +486,7 @@ export const questionsMotorBike =[
     {
         question: "Quel équipement est obligatoire pour conduire une moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto1.jpg",
         reponse: [
             { text: "Un casque homologué", correct: true },
             { text: "Des gants en tissu", correct: false },
@@ -497,7 +497,7 @@ export const questionsMotorBike =[
     {
         question: "Quelle est la principale cause d’accident en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto2.jpeg",
         reponse: [
             { text: "Le mauvais état des routes", correct: false },
             { text: "Le non-respect des distances de sécurité", correct: true },
@@ -508,7 +508,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est l’impact d’un casque mal attaché ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto3.jpg",
         reponse: [
             { text: "Aucun, il protège toujours autant", correct: false },
             { text: "Il peut s’enlever en cas d’accident", correct: true },
@@ -519,7 +519,7 @@ export const questionsMotorBike =[
     {
         question: "Quelle est la distance minimale à respecter derrière un autre véhicule en moto par temps sec ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto4.jpg",
         reponse: [
             { text: "10 mètres", correct: false },
             { text: "2 secondes de distance", correct: true },
@@ -530,7 +530,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est l’équipement obligatoire en plus du casque ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto5.jpg",
         reponse: [
             { text: "Des chaussures montantes", correct: false },
             { text: "Des gants homologués", correct: true },
@@ -541,7 +541,7 @@ export const questionsMotorBike =[
     {
         question: "Que faire si votre moto commence à glisser sur une chaussée humide ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto6.jpg",
         reponse: [
             { text: "Freiner brutalement", correct: false },
             { text: "Accélérer pour reprendre l'adhérence", correct: false },
@@ -552,7 +552,7 @@ export const questionsMotorBike =[
     {
         question: "Quand devez-vous allumer vos feux de croisement en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto7.jpg",
         reponse: [
             { text: "Uniquement de nuit", correct: false },
             { text: "En cas de forte chaleur", correct: false },
@@ -563,7 +563,7 @@ export const questionsMotorBike =[
     {
         question: "Pourquoi est-il important d'anticiper les freinages en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto8.jpg",
         reponse: [
             { text: "Pour impressionner les autres conducteurs", correct: false },
             { text: "Pour économiser du carburant", correct: false },
@@ -574,7 +574,7 @@ export const questionsMotorBike =[
     {
         question: "Comment devez-vous aborder un virage en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto9.jpg",
         reponse: [
             { text: "Accélérer en entrant dans le virage", correct: false },
             { text: "Freiner en plein virage", correct: false },
@@ -585,7 +585,7 @@ export const questionsMotorBike =[
     {
         question: "Que faire en cas de perte de contrôle de la moto sur route mouillée ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto10.jpeg",
         reponse: [
             { text: "Tourner brusquement le guidon", correct: false },
             { text: "Accélérer fortement", correct: false },
@@ -596,7 +596,7 @@ export const questionsMotorBike =[
     {
         question: "Quelle est la règle à suivre lorsqu'un véhicule vous double en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto11.jpg",
         reponse: [
             { text: "Accélérer pour le doubler avant qu'il ne vous dépasse", correct: false },
             { text: "Rester dans votre voie sans changer de trajectoire", correct: true },
@@ -607,7 +607,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est le principal risque en cas de freinage trop brusque sur une moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto12.jpg",
         reponse: [
             { text: "Perdre l’équilibre et chuter", correct: true },
             { text: "Augmenter la consommation de carburant", correct: false },
@@ -618,7 +618,7 @@ export const questionsMotorBike =[
     {
         question: "Pourquoi est-il important de vérifier la pression des pneus de votre moto régulièrement ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto13.jpg",
         reponse: [
             { text: "Pour éviter une usure irrégulière des pneus", correct: true },
             { text: "Pour améliorer l'aérodynamisme", correct: false },
@@ -629,7 +629,7 @@ export const questionsMotorBike =[
     {
         question: "Que faire si vous êtes suivi de trop près en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto14.jpg",
         reponse: [
             { text: "Accélérer pour augmenter la distance", correct: false },
             { text: "Freiner brusquement pour faire comprendre au conducteur qu'il est trop proche", correct: false },
@@ -640,7 +640,7 @@ export const questionsMotorBike =[
     {
         question: "Lors de l'utilisation d'une moto, quand pouvez-vous utiliser les feux de brouillard avant ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto15.jpg",
         reponse: [
             { text: "Lorsqu'il y a des éclairs", correct: false },
             { text: "Uniquement en cas de forte pluie, brouillard ou neige", correct: true },
@@ -651,7 +651,7 @@ export const questionsMotorBike =[
     {
         question: "Comment devez-vous circuler sur une route glissante ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto16.jpg",
         reponse: [
             { text: "En gardant une vitesse constante", correct: false },
             { text: "En roulant plus vite pour traverser rapidement", correct: false },
@@ -662,7 +662,7 @@ export const questionsMotorBike =[
     {
         question: "Pourquoi est-il conseillé de porter un blouson avec protection dorsale sur une moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto17.jpg",
         reponse: [
             { text: "Pour se protéger des intempéries", correct: false },
             { text: "Pour améliorer la position de conduite", correct: false },
@@ -673,7 +673,7 @@ export const questionsMotorBike =[
     {
         question: "Que devez-vous faire avant de prendre un virage en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto18.jpg",
         reponse: [
             { text: "Accélérer légèrement pour mieux aborder le virage", correct: false },
             { text: "Vérifier l'état de la chaussée et ajuster votre vitesse", correct: true },
@@ -684,7 +684,7 @@ export const questionsMotorBike =[
     {
         question: "Pourquoi est-il important de regarder loin devant lorsque vous roulez en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto19.jpg",
         reponse: [
             { text: "Pour mieux observer la route et anticiper les dangers", correct: true },
             { text: "Pour éviter de se fatiguer", correct: false },
@@ -695,7 +695,7 @@ export const questionsMotorBike =[
     {
         question: "Que devez-vous faire en arrivant à un carrefour avec une route à sens unique en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto20.jpg",
         reponse: [
             { text: "Accélérer pour traverser rapidement", correct: false },
             { text: "Obéir aux feux de signalisation ou aux panneaux de priorité", correct: true },
@@ -706,7 +706,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est le risque d’une mauvaise visibilité la nuit en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto21.jpg",
         reponse: [
             { text: "Une mauvaise appréciation des distances et des obstacles", correct: true },
             { text: "De ne pas pouvoir circuler à plus de 50 km/h", correct: false },
@@ -717,7 +717,7 @@ export const questionsMotorBike =[
     {
         question: "Quel équipement peut réduire le risque de blessures graves en cas de chute ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto22.jpg",
         reponse: [
             { text: "Un gilet en cuir", correct: false },
             { text: "Un casque, un blouson et des gants homologués", correct: true },
@@ -728,7 +728,7 @@ export const questionsMotorBike =[
     {
         question: "Comment devez-vous réagir en cas de présence de gravillons ou d’huile sur la route ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto23.jpg",
         reponse: [
             { text: "Accélérer pour passer plus vite", correct: false },
             { text: "Maintenir une vitesse stable et éviter les changements brusques", correct: true },
@@ -739,7 +739,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est le rôle de la moto dans un environnement urbain ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto24.jpg",
         reponse: [
             { text: "Permettre de passer entre les files de véhicules", correct: true },
             { text: "Rouler plus vite que les autres véhicules", correct: false },
@@ -750,7 +750,7 @@ export const questionsMotorBike =[
     {
         question: "Comment freiner en moto sur une chaussée sèche ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto25.jpg",
         reponse: [
             { text: "Freiner avec la roue avant uniquement", correct: false },
             { text: "Freiner doucement en utilisant les deux roues de frein", correct: true },
@@ -761,7 +761,7 @@ export const questionsMotorBike =[
     {
         question: "Que faire avant de prendre la route en moto sous la pluie ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto26.jpeg",
         reponse: [
             { text: "Augmenter la pression des pneus", correct: false },
             { text: "S'assurer d'avoir un bon équipement imperméable", correct: true },
@@ -772,7 +772,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est l’avantage de la conduite en position de sécurité en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto27.jpeg",
         reponse: [
             { text: "Elle réduit la consommation de carburant", correct: false },
             { text: "Elle aide à avoir une meilleure visibilité", correct: true },
@@ -783,7 +783,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est le danger d'un freinage trop brusque en moto sur route mouillée ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto28.jpg",
         reponse: [
             { text: "Le risque d'aquaplaning", correct: true },
             { text: "Le blocage des roues", correct: false },
@@ -794,7 +794,7 @@ export const questionsMotorBike =[
     {
         question: "Pourquoi est-il important de se concentrer sur la conduite en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto29.jpg",
         reponse: [
             { text: "Parce que la moto n'a pas de protection comme une voiture", correct: true },
             { text: "Parce que la moto consomme moins d'essence", correct: false },
@@ -805,7 +805,7 @@ export const questionsMotorBike =[
     {
         question: "Que faire si vous êtes trop fatigué pour conduire votre moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto30.jpg",
         reponse: [
             { text: "Continuer à conduire en prenant de la vitesse", correct: false },
             { text: "Faire une pause et boire un café", correct: false },
@@ -816,7 +816,7 @@ export const questionsMotorBike =[
     {
         question: "Lors de l'achat d'une moto, quel aspect est essentiel à vérifier ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto31.jpg",
         reponse: [
             { text: "La couleur et l’apparence de la moto", correct: false },
             { text: "L’âge de la moto", correct: false },
@@ -827,7 +827,7 @@ export const questionsMotorBike =[
     {
         question: "Que devez-vous faire lorsque vous circulez sur une route avec des virages serrés ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto32.jpg",
         reponse: [
             { text: "Accélérer pour passer plus vite", correct: false },
             { text: "Ralentir et anticiper les virages", correct: true },
@@ -838,7 +838,7 @@ export const questionsMotorBike =[
     {
         question: "Que faire si vous perdez le contrôle de votre moto à grande vitesse ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto33.jpg",
         reponse: [
             { text: "Accélérer encore plus pour reprendre le contrôle", correct: false },
             { text: "Relâcher doucement les gaz et freiner progressivement", correct: true },
@@ -849,7 +849,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est le risque principal en cas de conduite sous la pluie ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto34.jpeg",
         reponse: [
             { text: "L’aérodynamisme réduit", correct: false },
             { text: "La visibilité réduite et le sol glissant", correct: true },
@@ -860,7 +860,7 @@ export const questionsMotorBike =[
     {
         question: "Pourquoi est-il essentiel de maintenir une distance de sécurité en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto35.jpeg",
         reponse: [
             { text: "Pour pouvoir doubler plus rapidement", correct: false },
             { text: "Pour éviter d’être pris par surprise en cas de freinage brusque", correct: true },
@@ -871,7 +871,7 @@ export const questionsMotorBike =[
     {
         question: "Quand devez-vous signaler votre changement de direction en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto36.jpg",
         reponse: [
             { text: "5 mètres avant de changer de direction", correct: false },
             { text: "2 mètres avant de tourner", correct: false },
@@ -882,7 +882,7 @@ export const questionsMotorBike =[
     {
         question: "Que risquez-vous si vous conduisez sans éclairage la nuit en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto37.jpg",
         reponse: [
             { text: "Une amende et un retrait de points", correct: true },
             { text: "Une perte de vitesse", correct: false },
@@ -893,7 +893,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est l'impact de rouler avec des pneus sous-gonflés en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto38.jpg",
         reponse: [
             { text: "Une meilleure stabilité", correct: false },
             { text: "Une usure accélérée et un freinage moins efficace", correct: true },
@@ -904,7 +904,7 @@ export const questionsMotorBike =[
     {
         question: "En cas de panne en pleine circulation, que devez-vous faire avec votre moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto39.jpg",
         reponse: [
             { text: "Laisser la moto sur la chaussée et attendre l’assistance", correct: false },
             { text: "La déplacer hors de la circulation si possible", correct: true },
@@ -915,7 +915,7 @@ export const questionsMotorBike =[
     {
         question: "Que devez-vous faire en cas d’obstacle sur la route en moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto40.jpg",
         reponse: [
             { text: "L’éviter sans ralentir", correct: false },
             { text: "Freiner brutalement et attendre qu’il se déplace", correct: false },
@@ -926,7 +926,7 @@ export const questionsMotorBike =[
     {
         question: "Quel est le rôle des rétroviseurs sur une moto ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageMoto41.jpeg",
         reponse: [
             { text: "Permettre de voir les véhicules derrière vous", correct: true },
             { text: "Améliorer la visibilité de la moto", correct: false },
@@ -940,7 +940,7 @@ export const questionsBoat =[
     {
         question: "Quelle est la vitesse maximale autorisée en mer pour les navires de moins de 20 mètres en journée ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "5 nœuds", correct: false },
             { text: "10 nœuds", correct: false },
@@ -951,7 +951,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un pavillon noir sur un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Le bateau est en danger", correct: false },
             { text: "Le bateau est en quarantaine", correct: true },
@@ -962,7 +962,7 @@ export const questionsBoat =[
     {
         question: "Comment se signaler lorsqu'un bateau prend un virage à droite dans une zone de trafic ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "En utilisant un feu vert", correct: false },
             { text: "En donnant un coup de sirène", correct: false },
@@ -973,7 +973,7 @@ export const questionsBoat =[
     {
         question: "Que devez-vous faire lorsque vous croisez un autre bateau en mer en zone de visibilité réduite ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Accélérer pour réduire le temps de croisement", correct: false },
             { text: "Manœuvrer à une vitesse réduite et être prêt à éviter la collision", correct: true },
@@ -984,7 +984,7 @@ export const questionsBoat =[
     {
         question: "Que symbolise un drapeau rouge avec un cercle noir pour un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Le bateau est en procédure de sécurité", correct: false },
             { text: "Le bateau est en cours de travaux", correct: true },
@@ -995,7 +995,7 @@ export const questionsBoat =[
     {
         question: "Quel est le principal danger de la navigation de nuit sans éclairage approprié ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "La fatigue du capitaine", correct: false },
             { text: "La collision avec un autre navire", correct: true },
@@ -1006,7 +1006,7 @@ export const questionsBoat =[
     {
         question: "Que devez-vous faire si vous êtes à la barre d'un bateau et que vous apercevez un signal sonore de détresse ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Ralentir et chercher d'où vient le signal", correct: true },
             { text: "Accélérer pour ne pas gêner les autres navires", correct: false },
@@ -1017,7 +1017,7 @@ export const questionsBoat =[
     {
         question: "Qu'est-ce que la 'zone de danger' pour un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Un secteur où la météo est favorable", correct: false },
             { text: "Un secteur où la visibilité est réduite ou des obstacles sont présents", correct: true },
@@ -1028,7 +1028,7 @@ export const questionsBoat =[
     {
         question: "Que doit-on faire si un bateau se trouve sur notre droite et qu'il est sur une trajectoire de collision avec nous ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Aucun changement de trajectoire n'est nécessaire", correct: false },
             { text: "Diminuer la vitesse et maintenir notre trajectoire", correct: false },
@@ -1039,7 +1039,7 @@ export const questionsBoat =[
     {
         question: "Dans quel cas peut-on traverser une voie maritime à une vitesse élevée ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Quand il n'y a aucun autre navire", correct: false },
             { text: "Lors d'une urgence", correct: true },
@@ -1050,7 +1050,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un feu vert sur un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Le bateau est en direction du port", correct: false },
             { text: "Le bateau est en train de manœuvrer", correct: false },
@@ -1061,7 +1061,7 @@ export const questionsBoat =[
     {
         question: "Que doit faire un bateau qui rencontre une zone de pollution dans une rivière ou une mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Diminuer la vitesse", correct: false },
             { text: "Continuer à naviguer à pleine vitesse", correct: false },
@@ -1072,7 +1072,7 @@ export const questionsBoat =[
     {
         question: "Quel est le but d'un gilet de sauvetage ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Pour augmenter la visibilité sur l'eau", correct: false },
             { text: "Pour protéger contre les vagues", correct: false },
@@ -1083,7 +1083,7 @@ export const questionsBoat =[
     {
         question: "Pourquoi les bateaux doivent-ils respecter les règles de priorité sur l'eau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Pour éviter les amendes", correct: false },
             { text: "Pour éviter les accidents", correct: true },
@@ -1094,7 +1094,7 @@ export const questionsBoat =[
     {
         question: "Lors d'une sortie en mer, qu'est-ce qu'un bateau doit vérifier avant de partir ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "L'état des moteurs et du carburant", correct: true },
             { text: "Les vêtements du capitaine", correct: false },
@@ -1105,7 +1105,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un pavillon jaune sur un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Le bateau est en quarantaine", correct: true },
             { text: "Le bateau est un navire de guerre", correct: false },
@@ -1116,7 +1116,7 @@ export const questionsBoat =[
     {
         question: "Comment signaler que vous êtes sur le point de doubler un autre bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "En émettant un signal sonore à trois brefs coups", correct: true },
             { text: "En allumant les feux de détresse", correct: false },
@@ -1127,7 +1127,7 @@ export const questionsBoat =[
     {
         question: "Que devez-vous faire lorsque vous naviguez à proximité d'une plage avec des baigneurs ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Rester à une vitesse élevée pour ne pas gêner la circulation", correct: false },
             { text: "Naviguer lentement et faire attention aux baigneurs", correct: true },
@@ -1138,7 +1138,7 @@ export const questionsBoat =[
     {
         question: "Que signifie une bouée rouge et blanche en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Un danger pour la navigation", correct: false },
             { text: "Une zone de baignade", correct: false },
@@ -1149,7 +1149,7 @@ export const questionsBoat =[
     {
         question: "En cas de brume épaisse, quelle règle de navigation est essentielle ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Accélérer pour éviter d'être touché par un autre bateau", correct: false },
             { text: "Naviguer à basse vitesse et utiliser des signaux sonores", correct: true },
@@ -1160,7 +1160,7 @@ export const questionsBoat =[
     {
         question: "Lorsque vous naviguez près d'un autre bateau, que devez-vous éviter de faire ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Doubler le bateau par la droite", correct: false },
             { text: "Rester sur la même trajectoire", correct: false },
@@ -1171,7 +1171,7 @@ export const questionsBoat =[
     {
         question: "Que doit faire un capitaine si son bateau est pris dans une tempête en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Rester à la barre et naviguer à pleine vitesse", correct: false },
             { text: "S'abriter dans un port si possible ou ralentir et naviguer prudemment", correct: true },
@@ -1182,7 +1182,7 @@ export const questionsBoat =[
     {
         question: "Que doit-on faire si l'on aperçoit un bateau en détresse en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "L'ignorer et continuer à naviguer", correct: false },
             { text: "Signaler l'incident aux autorités maritimes", correct: true },
@@ -1193,7 +1193,7 @@ export const questionsBoat =[
     {
         question: "Que signifie une bouée verte en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Elle indique un danger à éviter", correct: false },
             { text: "Elle indique une zone de baignade", correct: false },
@@ -1204,7 +1204,7 @@ export const questionsBoat =[
     {
         question: "Que faire si vous êtes dans une zone de navigation à faible visibilité ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Naviguer à grande vitesse pour sortir rapidement de la zone", correct: false },
             { text: "Réduire la vitesse et utiliser les signaux sonores et lumineux", correct: true },
@@ -1215,7 +1215,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un pavillon jaune sur un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Le bateau est en quarantaine", correct: true },
             { text: "Le bateau est en danger", correct: false },
@@ -1226,7 +1226,7 @@ export const questionsBoat =[
     {
         question: "Que devez-vous faire si un bateau vous signale qu'il effectue une manœuvre en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Accélérer pour le dépasser rapidement", correct: false },
             { text: "Laisser le bateau effectuer sa manœuvre en toute sécurité", correct: true },
@@ -1237,7 +1237,7 @@ export const questionsBoat =[
     {
         question: "Quand un bateau doit-il utiliser un signal sonore ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Lors de chaque manœuvre", correct: false },
             { text: "Lorsqu'il y a une collision imminente", correct: false },
@@ -1248,7 +1248,7 @@ export const questionsBoat =[
     {
         question: "Que faire si un bateau vous double à une vitesse élevée ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Ralentir et maintenir une distance de sécurité", correct: true },
             { text: "Accélérer pour rester à proximité", correct: false },
@@ -1259,7 +1259,7 @@ export const questionsBoat =[
     {
         question: "Quel est le rôle des bouées de chenal ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Indiquer la zone de danger", correct: false },
             { text: "Marquer la délimitation des zones de baignade", correct: false },
@@ -1270,7 +1270,7 @@ export const questionsBoat =[
     {
         question: "Quelle est la priorité de circulation dans un chenal étroit ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Les voiliers ont toujours la priorité", correct: false },
             { text: "Les bateaux en mer ont priorité sur les bateaux entrant", correct: true },
@@ -1281,7 +1281,7 @@ export const questionsBoat =[
     {
         question: "Quelles informations sont affichées sur les feux de navigation d'un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "La vitesse du bateau", correct: false },
             { text: "La direction et le statut du bateau", correct: true },
@@ -1292,7 +1292,7 @@ export const questionsBoat =[
     {
         question: "Lors de la navigation en mer, que devez-vous faire en cas d'incident de sécurité ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Avertir immédiatement les autorités maritimes et faire des signaux", correct: true },
             { text: "Continuer à naviguer à pleine vitesse", correct: false },
@@ -1303,7 +1303,7 @@ export const questionsBoat =[
     {
         question: "Quelle est la fonction des feux de tête et de poupe d'un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Indiquer la direction du bateau et la vitesse", correct: false },
             { text: "Marquer la position et l'orientation du bateau", correct: true },
@@ -1314,7 +1314,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un feu de navigation rouge sur un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Le bateau doit virer à gauche", correct: true },
             { text: "Le bateau est stationné", correct: false },
@@ -1325,7 +1325,7 @@ export const questionsBoat =[
     {
         question: "Quel est le rôle d'une bouée rouge en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Elle délimite un espace réservé aux pêcheurs", correct: false },
             { text: "Elle marque le côté gauche d'un chenal", correct: true },
@@ -1336,7 +1336,7 @@ export const questionsBoat =[
     {
         question: "Comment doit-on se comporter face à un autre bateau qui arrive en sens inverse ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Ralentir et céder le passage", correct: true },
             { text: "Maintenir sa route et sa vitesse", correct: false },
@@ -1347,7 +1347,7 @@ export const questionsBoat =[
     {
         question: "Que devez-vous faire lorsque vous êtes dans une zone de pêche ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Naviguer à faible vitesse et être attentif aux engins de pêche", correct: true },
             { text: "Accélérer pour sortir rapidement", correct: false },
@@ -1358,7 +1358,7 @@ export const questionsBoat =[
     {
         question: "Que faire lorsque vous croisez un bateau en mer de jour ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Diminuer la vitesse et garder une distance de sécurité", correct: true },
             { text: "Augmenter la vitesse pour le dépasser", correct: false },
@@ -1369,7 +1369,7 @@ export const questionsBoat =[
     {
         question: "Que faire si vous naviguez près d'un port ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Accélérer pour quitter rapidement la zone", correct: false },
             { text: "Ralentir et être attentif aux autres navires", correct: true },
@@ -1380,7 +1380,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un pavillon rouge ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Le bateau est en détresse", correct: true },
             { text: "Le bateau est sous contrôle", correct: false },
@@ -1391,7 +1391,7 @@ export const questionsBoat =[
     {
         question: "Que représente une bouée bleue en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Zone de baignade", correct: false },
             { text: "Un danger à éviter", correct: false },
@@ -1402,7 +1402,7 @@ export const questionsBoat =[
     {
         question: "Que faire si votre moteur tombe en panne en mer ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Appeler immédiatement les secours", correct: true },
             { text: "Essayer de réparer le moteur", correct: false },
@@ -1413,7 +1413,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un pavillon vert sur un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Le bateau est en quarantaine", correct: false },
             { text: "Le bateau signale un navire en route", correct: true },
@@ -1424,7 +1424,7 @@ export const questionsBoat =[
     {
         question: "Quels sont les signaux à utiliser lorsqu'il y a une visibilité réduite ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Se signaler avec des lumières et des signaux sonores", correct: true },
             { text: "Utiliser seulement les feux de navigation", correct: false },
@@ -1435,7 +1435,7 @@ export const questionsBoat =[
     {
         question: "Que faire en cas de collision imminente avec un autre bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Accélérer pour éviter la collision", correct: false },
             { text: "Diminuer la vitesse et manœuvrer", correct: true },
@@ -1446,7 +1446,7 @@ export const questionsBoat =[
     {
         question: "Quel est le rôle d'une bouée à l'entrée d'un port ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Indiquer la direction du courant", correct: false },
             { text: "Marquer la limite du chenal", correct: true },
@@ -1457,7 +1457,7 @@ export const questionsBoat =[
     {
         question: "Lorsque vous croisez un autre bateau de nuit, que devez-vous faire ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Continuer votre route sans changer de cap", correct: false },
             { text: "Ralentir et évaluer la situation", correct: true },
@@ -1468,7 +1468,7 @@ export const questionsBoat =[
     {
         question: "Que devez-vous faire lorsque vous rencontrez une bouée de danger ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Continuer à naviguer normalement", correct: false },
             { text: "Eviter la bouée et changer de cap", correct: true },
@@ -1479,7 +1479,7 @@ export const questionsBoat =[
     {
         question: "Que faire si vous devez naviguer dans une zone fréquentée par des pêcheurs ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Accélérer pour traverser plus rapidement", correct: false },
             { text: "Naviguer prudemment et éviter les engins de pêche", correct: true },
@@ -1490,7 +1490,7 @@ export const questionsBoat =[
     {
         question: "Que signifie un feu blanc visible sur un bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Le bateau est à l'ancre", correct: true },
             { text: "Le bateau est en mouvement", correct: false },
@@ -1501,7 +1501,7 @@ export const questionsBoat =[
     {
         question: "Que faire si vous voyez un bateau de secours ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "L'ignorer et continuer votre route", correct: false },
             { text: "Ralentir et observer la situation", correct: true },
@@ -1512,7 +1512,7 @@ export const questionsBoat =[
     {
         question: "Que faire si vous perdez votre ancre ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Essayer de la retrouver en mer", correct: false },
             { text: "Alerter les autorités et signaler l'incident", correct: true },
@@ -1523,7 +1523,7 @@ export const questionsBoat =[
     {
         question: "Quelle est la priorité lors de la navigation dans un chenal étroit ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat2.jpg",
         reponse: [
             { text: "Le bateau entrant a priorité", correct: false },
             { text: "Le bateau sortant a priorité", correct: true },
@@ -1534,7 +1534,7 @@ export const questionsBoat =[
     {
         question: "Quand faut-il signaler un danger à l'autre bateau ?",
         video : "",
-        image : "Ressources/Image1.jpg",
+        image : "Ressources/ImageBoat1.jpg",
         reponse: [
             { text: "Lorsque vous avez suffisamment d'espace", correct: false },
             { text: "Lorsque vous êtes à proximité", correct: true },
@@ -1542,105 +1542,6 @@ export const questionsBoat =[
             { text: "Lorsque le danger est visible", correct: false }
         ]
     },
-    {
-        question: "Que faire en cas de pollution en mer ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Ne rien faire et continuer à naviguer", correct: false },
-            { text: "Signaler l'incident aux autorités compétentes", correct: true },
-            { text: "Essayer de ramasser la pollution", correct: false },
-            { text: "Ignorer l'incident", correct: false }
-        ]
-    },
-    {
-        question: "Que faire lorsque vous croisez un bateau de guerre en mer ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Faire une pause pour le laisser passer", correct: false },
-            { text: "Faire un salut militaire", correct: false },
-            { text: "Respecter la distance de sécurité et observer", correct: true },
-            { text: "L'ignorer et continuer à naviguer", correct: false }
-        ]
-    },
-    {
-        question: "Que doit-on vérifier avant de quitter un port ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "L'état du moteur", correct: true },
-            { text: "La météo uniquement", correct: false },
-            { text: "L'état de la coque", correct: false },
-            { text: "Les équipements de sécurité", correct: false }
-        ]
-    },
-    {
-        question: "Que signifie un feu de navigation rouge et vert combiné ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Le bateau est en mouvement", correct: false },
-            { text: "Le bateau est à l'ancre", correct: false },
-            { text: "Le bateau est sur un parcours de collision", correct: true },
-            { text: "Le bateau est en détresse", correct: false }
-        ]
-    },
-    {
-        question: "Que faire lorsque vous voyez un signal lumineux orange ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Cela signifie que vous devez ralentir", correct: false },
-            { text: "Cela signifie un signal de navigation", correct: true },
-            { text: "Cela signifie que vous êtes en danger", correct: false },
-            { text: "Cela signifie que vous devez vous arrêter", correct: false }
-        ]
-    },
-    {
-        question: "Pourquoi est-il important d'avoir un gilet de sauvetage ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Pour être visible en mer", correct: false },
-            { text: "Pour se protéger du froid", correct: false },
-            { text: "Pour assurer votre flottabilité en cas de chute à l'eau", correct: true },
-            { text: "Pour signaler votre présence", correct: false }
-        ]
-    },
-    {
-        question: "Quel est le but d'une bouée de marée ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Indiquer la direction des courants marins", correct: false },
-            { text: "Indiquer le niveau de marée", correct: true },
-            { text: "Signaler une zone de pêche", correct: false },
-            { text: "Marquer le début du chenal", correct: false }
-        ]
-    },
-    {
-        question: "Comment vous comporter en présence d'un remorqueur ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Céder le passage et naviguer à faible vitesse", correct: true },
-            { text: "Accélérer pour ne pas gêner", correct: false },
-            { text: "Naviguer normalement", correct: false },
-            { text: "Attendre qu'il passe", correct: false }
-        ]
-    },
-    {
-        question: "Quelles informations donne le feu rouge sur un bateau ?",
-        video : "",
-        image : "Ressources/Image1.jpg",
-        reponse: [
-            { text: "Le bateau est à l'arrêt", correct: true },
-            { text: "Le bateau est en mouvement", correct: false },
-            { text: "Le bateau est en danger", correct: false },
-            { text: "Le bateau est en détresse", correct: false }
-        ]
-    }
 ]
        
 
